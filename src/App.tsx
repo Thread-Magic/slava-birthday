@@ -5,15 +5,30 @@ import slavaApproves from "./assets/slava-approves.png";
 import slavaLikes from "./assets/slava-likes.png";
 
 function App() {
+  const enableMusic = (e: any) => {
+    e.preventDefault();
+    const video = document.querySelector("video");
+
+    if (video) {
+      video.muted = false;
+    }
+  };
+
   return (
     <div className="bg-black">
       <div className="h-48 flex items-center text-white">
         <div className="w-full text-center">
           <h1 className="text-5xl">Happy Birthday Uncle Slav! 🎉</h1>
+          <p className="text-lg mt-10">
+            <a href="#" onClick={enableMusic}>
+              Enable the great music
+            </a>{" "}
+            and enjoy the show!
+          </p>
         </div>
       </div>
       <div className="bg-white">
-        <video loop autoPlay className="w-screen">
+        <video loop autoPlay muted className="w-screen">
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

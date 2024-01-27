@@ -2,3 +2,8 @@ body {
   font-family: "Self Modern";
   border: none;
 }
+
+a {
+  text-decoration: underline;
+  color: rgba(0, 187, 153, 1);
+}
