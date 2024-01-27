@@ -4,6 +4,6 @@ body {
 }
 
 a {
-  text-decoration: underline;
-  color: rgba(0, 187, 153, 1);
+  text-decoration: underline !important;
+  color: rgba(0, 187, 153, 1) !important;
 }
