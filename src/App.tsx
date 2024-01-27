@@ -21,7 +21,7 @@ function App() {
           <h1 className="text-5xl">Happy Birthday Uncle Slav! 🎉</h1>
           <p className="text-lg mt-10">
             <a href="#" onClick={enableMusic}>
-              Enable the great music
+              Click here
             </a>{" "}
             and enjoy the show!
           </p>
