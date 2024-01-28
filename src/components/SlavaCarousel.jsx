@@ -12,7 +12,7 @@ import slavaFilm from "../assets/slava-film.jpg"
 const styles = {
     slavaWrapper: {
         display: 'flex',
-        margin: '20px auto',
+        margin: '50px auto 20px auto',
         width: 500
     },
     img: {
