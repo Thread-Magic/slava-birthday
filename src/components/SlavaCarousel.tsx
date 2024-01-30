@@ -17,15 +17,6 @@ const styles = {
     with: 500,
     height: 500,
   },
-  p: {
-    position: "absolute",
-    top: 0,
-    marginLeft: 10,
-    fontWeight: "bold",
-    bacgroundColor: "red",
-    color: "#fafafa",
-    fontSize: 25,
-  },
 };
 
 export default function SlavaCarousel() {
@@ -47,35 +38,123 @@ export default function SlavaCarousel() {
       >
         <div>
           <img src={slavaMark} />
-          <p style={styles.p}>Slava Mark</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Mark
+          </p>
         </div>
         <div>
           <img src={slavaDaniels} />
-          <p style={styles.p}>Slava Daniels</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Daniels
+          </p>
         </div>
         <div>
           <img src={slavaWindows} />
-          <p style={styles.p}>Slava Windows</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Windows
+          </p>
         </div>
         <div>
           <img src={slavaOcean} />
-          <p style={styles.p}>Slava Ocean</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Ocean
+          </p>
         </div>
         <div>
           <img src={slavaBowling} />
-          <p style={styles.p}>Slava Bowling</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Bowling
+          </p>
         </div>
         <div>
           <img src={slavaDresscode} />
-          <p style={styles.p}>Slava Dresscode</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Dresscode
+          </p>
         </div>
         <div>
           <img src={slavaFilm} />
-          <p style={styles.p}>Slava Productions</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Productions
+          </p>
         </div>
         <div>
           <img src={slavaVogue} />
-          <p style={styles.p}>Slava Vogue</p>
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Vogue
+          </p>
         </div>
       </Carousel>
     </div>

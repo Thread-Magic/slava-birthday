@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./App.css";
 import video from "./assets/slava-dancing.mp4";
 import slavaDisapproves from "./assets/slava-disapproves.png";
