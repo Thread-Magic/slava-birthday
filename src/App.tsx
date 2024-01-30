@@ -3,7 +3,7 @@ import video from "./assets/slava-dancing.mp4";
 import slavaDisapproves from "./assets/slava-disapproves.png";
 import slavaApproves from "./assets/slava-approves.png";
 import slavaLikes from "./assets/slava-likes.png";
-import SlavaCarousel from './components/SlavaCarousel'
+import SlavaCarousel from "./components/SlavaCarousel";
 
 function App() {
   const enableMusic = (e: any) => {
@@ -60,12 +60,14 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="flex items-center text-white mt-12">
+      <div className="flex justify-between items-center text-white mt-12 md:px-10">
         <img src={slavaDisapproves} alt="Slava Disapproves" />
+
         <img src={slavaApproves} alt="Slava Happy" />
+
         <img src={slavaLikes} alt="Slava Likes" />
       </div>
-      <div>
+      <div className="flex justify-center items-center text-white mt-12 w-screen">
         <SlavaCarousel />
       </div>
       <div className="h-40 flex items-center text-white">
