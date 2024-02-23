@@ -7,11 +7,13 @@ import slavaOcean from "../assets/slava-ocean.jpg";
 import slavaBowling from "../assets/slava-bowling.jpg";
 import slavaDresscode from "../assets/slav-dresscode.jpg";
 import slavaFilm from "../assets/slava-film.jpg";
-import slavaVogue from "../assets/slava-vogue.png";
+import slavaVogue from "../assets/slava-vogue.jpg";
 
 const styles = {
   slavaWrapper: {
-    width: 500,
+    // width: '100%',
+    // overflow: 'hidden',
+    // height: 500
   },
   img: {
     with: 500,
@@ -35,6 +37,8 @@ export default function SlavaCarousel() {
         dynamicHeight
         emulateTouch
         autoFocus={false}
+        centerSlidePercentage={40}
+        centerMode
       >
         <div>
           <img src={slavaMark} />
