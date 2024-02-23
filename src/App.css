@@ -48,7 +48,7 @@ a {
 
 .main-container {
   background-color: #060606;
-  background-image: url("src/assets/bg-repeat-slav.png");
+  background-image: url("./assets/barbie-slav.png");
   background-repeat: repeat;
   overflow-x: hidden;
 }
