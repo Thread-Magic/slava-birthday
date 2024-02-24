@@ -152,7 +152,7 @@ function App() {
         </video>
       </div>
 
-      <div className="md:flex sm:base-container justify-between items-center text-white md:px-10">
+      <div className="md:flex sm:base-container justify-between items-center text-white mt-8 md:px-10">
         <img src={slavaDisapproves} alt="Slava Disapproves" />
 
         <img src={slavaApproves} alt="Slava Happy" />
