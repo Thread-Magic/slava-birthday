@@ -18,9 +18,9 @@ import slavaDrunk from "../assets/slava-drunk.jpg";
 
 const styles = {
   slavaWrapper: {
-    // width: '100%',
-    // overflow: 'hidden',
-    // height: 500
+    width: "100%",
+    overflow: "hidden",
+    height: 800,
   },
   img: {
     with: 500,
@@ -56,7 +56,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Mark
@@ -71,7 +71,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Daniels
@@ -86,7 +86,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Windows
@@ -101,7 +101,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Ocean
@@ -116,7 +116,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Bowling
@@ -131,7 +131,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Dresscode
@@ -146,7 +146,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Productions
@@ -161,7 +161,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Vogue
@@ -176,7 +176,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slavatar
@@ -191,7 +191,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Ticket
@@ -206,7 +206,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slavation Army
@@ -221,7 +221,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Lamp
@@ -236,7 +236,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slav, Slav & Slava
@@ -251,7 +251,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Bakslava
@@ -266,7 +266,7 @@ export default function SlavaCarousel() {
               marginLeft: 10,
               fontWeight: "bold",
               color: "#fafafa",
-              fontSize: 25,
+              fontSize: 16,
             }}
           >
             Slava Ticket and Beer
