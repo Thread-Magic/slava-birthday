@@ -8,6 +8,13 @@ import slavaBowling from "../assets/slava-bowling.jpg";
 import slavaDresscode from "../assets/slav-dresscode.jpg";
 import slavaFilm from "../assets/slava-film.jpg";
 import slavaVogue from "../assets/slava-vogue.jpg";
+import slavatar from "../assets/slavatar-2.png";
+import slavaTicket from "../assets/slava-ticket.jpg";
+import slavationArmy from "../assets/slavation-army.png";
+import slavaLamp from "../assets/slava-lamp.png";
+import slavaGroup from "../assets/slava-group.jpg";
+import bakslava from "../assets/bakslava.jpg";
+import slavaDrunk from "../assets/slava-drunk.jpg";
 
 const styles = {
   slavaWrapper: {
@@ -158,6 +165,111 @@ export default function SlavaCarousel() {
             }}
           >
             Slava Vogue
+          </p>
+        </div>
+        <div>
+          <img src={slavatar} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slavatar
+          </p>
+        </div>
+        <div>
+          <img src={slavaTicket} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Ticket
+          </p>
+        </div>
+        <div>
+          <img src={slavationArmy} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slavation Army
+          </p>
+        </div>
+        <div>
+          <img src={slavaLamp} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Lamp
+          </p>
+        </div>
+        <div>
+          <img src={slavaGroup} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slav, Slav & Slava
+          </p>
+        </div>
+        <div>
+          <img src={bakslava} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Bakslava
+          </p>
+        </div>
+        <div>
+          <img src={slavaDrunk} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 25,
+            }}
+          >
+            Slava Ticket and Beer
           </p>
         </div>
       </Carousel>
