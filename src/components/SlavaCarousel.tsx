@@ -15,6 +15,20 @@ import slavaLamp from "../assets/slava-lamp.png";
 import slavaGroup from "../assets/slava-group.jpg";
 import bakslava from "../assets/bakslava.jpg";
 import slavaDrunk from "../assets/slava-drunk.jpg";
+import slavaChair from "../assets/slava-chair.jpg";
+import slavaHam from "../assets/slava-ham.jpg";
+import slavaSinger from "../assets/slava-singer.jpg";
+import slavaIron from "../assets/slava-iron.jpg";
+import slava1 from "../assets/slava-1.jpg";
+import slava2 from "../assets/slava-2.jpg";
+import slava3 from "../assets/slava-3.jpg";
+import slava4 from "../assets/slava-4.jpg";
+import slava5 from "../assets/slava-5.jpg";
+import slava6 from "../assets/slava-6.jpg";
+import slava7 from "../assets/slava-7.jpg";
+import slava8 from "../assets/slava-8.jpg";
+import slava9 from "../assets/slava-9.jpg";
+import slava10 from "../assets/slava-10.jpg";
 
 const styles = {
   slavaWrapper: {
@@ -47,6 +61,81 @@ export default function SlavaCarousel() {
         centerSlidePercentage={40}
         centerMode
       >
+        <div>
+          <img src={slavaVogue} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava Vogue
+          </p>
+        </div>
+        <div>
+          <img src={slavatar} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slavatar
+          </p>
+        </div>
+        <div>
+          <img src={slavationArmy} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slavation Army
+          </p>
+        </div>
+        <div>
+          <img src={slavaLamp} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava Lamp
+          </p>
+        </div>
+        <div>
+          <img src={bakslava} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Bakslava
+          </p>
+        </div>
         <div>
           <img src={slavaMark} />
           <p
@@ -153,36 +242,6 @@ export default function SlavaCarousel() {
           </p>
         </div>
         <div>
-          <img src={slavaVogue} />
-          <p
-            style={{
-              position: "absolute",
-              top: 0,
-              marginLeft: 10,
-              fontWeight: "bold",
-              color: "#fafafa",
-              fontSize: 16,
-            }}
-          >
-            Slava Vogue
-          </p>
-        </div>
-        <div>
-          <img src={slavatar} />
-          <p
-            style={{
-              position: "absolute",
-              top: 0,
-              marginLeft: 10,
-              fontWeight: "bold",
-              color: "#fafafa",
-              fontSize: 16,
-            }}
-          >
-            Slavatar
-          </p>
-        </div>
-        <div>
           <img src={slavaTicket} />
           <p
             style={{
@@ -195,36 +254,6 @@ export default function SlavaCarousel() {
             }}
           >
             Slava Ticket
-          </p>
-        </div>
-        <div>
-          <img src={slavationArmy} />
-          <p
-            style={{
-              position: "absolute",
-              top: 0,
-              marginLeft: 10,
-              fontWeight: "bold",
-              color: "#fafafa",
-              fontSize: 16,
-            }}
-          >
-            Slavation Army
-          </p>
-        </div>
-        <div>
-          <img src={slavaLamp} />
-          <p
-            style={{
-              position: "absolute",
-              top: 0,
-              marginLeft: 10,
-              fontWeight: "bold",
-              color: "#fafafa",
-              fontSize: 16,
-            }}
-          >
-            Slava Lamp
           </p>
         </div>
         <div>
@@ -243,21 +272,6 @@ export default function SlavaCarousel() {
           </p>
         </div>
         <div>
-          <img src={bakslava} />
-          <p
-            style={{
-              position: "absolute",
-              top: 0,
-              marginLeft: 10,
-              fontWeight: "bold",
-              color: "#fafafa",
-              fontSize: 16,
-            }}
-          >
-            Bakslava
-          </p>
-        </div>
-        <div>
           <img src={slavaDrunk} />
           <p
             style={{
@@ -270,6 +284,216 @@ export default function SlavaCarousel() {
             }}
           >
             Slava Ticket and Beer
+          </p>
+        </div>
+        <div>
+          <img src={slavaChair} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava & chair
+          </p>
+        </div>
+        <div>
+          <img src={slavaHam} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava & Ham
+          </p>
+        </div>
+        <div>
+          <img src={slavaSinger} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava Singer
+          </p>
+        </div>
+        <div>
+          <img src={slavaIron} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava Iron
+          </p>
+        </div>
+        <div>
+          <img src={slava1} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava2} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava3} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava4} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava5} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava6} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava7} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava8} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava9} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Slava
+          </p>
+        </div>
+        <div>
+          <img src={slava10} />
+          <p
+            style={{
+              position: "absolute",
+              top: 0,
+              marginLeft: 10,
+              fontWeight: "bold",
+              color: "#fafafa",
+              fontSize: 16,
+            }}
+          >
+            Alone Slava
           </p>
         </div>
       </Carousel>
